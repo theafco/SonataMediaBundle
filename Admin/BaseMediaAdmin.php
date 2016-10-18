@@ -18,6 +18,7 @@ use Sonata\ClassificationBundle\Model\CategoryManagerInterface;
 use Sonata\CoreBundle\Model\Metadata;
 use Sonata\MediaBundle\Form\DataTransformer\ProviderDataTransformer;
 use Sonata\MediaBundle\Provider\Pool;
+use Symfony\Component\HttpKernel\Kernel;
 
 abstract class BaseMediaAdmin extends AbstractAdmin
 {
